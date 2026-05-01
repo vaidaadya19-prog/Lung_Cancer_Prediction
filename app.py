@@ -25,7 +25,7 @@ def load_models():
     if not os.path.exists(model_path):
         with st.spinner('Downloading CNN model... (first time only, ~43MB)'):
             gdown.download(
-                'https://drive.google.com/uc?id=1vhwb31Bz5QGNHR-X2kDBtLlgetOb0WAb',
+                'https://drive.google.com/file/d/13qAWANkUOwHXbTZM-Aps3NzX7QzGzM3q/view?usp=drive_link',
                 model_path, quiet=False)
 
     # Load Random Forest
